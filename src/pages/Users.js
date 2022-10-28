@@ -5,7 +5,7 @@ import { Pagination } from "../components/Pagination";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/users.css";
 
-
+// throw new Error('invalid page')
 
 const Users = () => {
   const [users, setUsers] = useState([]);
